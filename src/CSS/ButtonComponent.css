@@ -1,0 +1,25 @@
+.button{
+    height: 40px;
+    width: 100px;
+    transition: all 1s ease-in ;
+    font-size: 20px;
+    margin:0px 4px; 
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px black;
+    font-weight: 600;
+    background-color: rgb(231, 78, 231);
+    color: white;
+
+}
+
+.submit{
+    background-color:green;
+    color: white;
+}
+
+.button:hover{
+    transform: scale(1.05);
+    background-color: skyblue;
+    color: black;
+
+}

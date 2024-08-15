@@ -1,0 +1,72 @@
+.addExpenseBox{
+  padding: 20px;
+  margin-top: 5vh;
+  max-width: 500px;
+  /* border: 1px solid rgb(240, 87, 16); */
+ 
+}
+
+  .homeForm {
+    /* padding: 20px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 0px auto;
+  /* border: 1px solid black; */
+
+  }
+  
+  .HomeAddExpense{
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .specialInput{
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  .homeSelect {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  .addExpense {
+    grid-column: 1 / 3;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #expense-list {
+    margin-top: 20px;
+  }
+  #expenses {
+    list-style: none;
+    padding: 0;
+  }
+  #expenses li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  #expenses li span {
+    font-weight: bold;
+  } 
+
+  .customCategory{
+   
+    margin:4px 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+  }

@@ -1,0 +1,60 @@
+/* PaymentHistoryItem.css */
+.payment-history-item {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-history-item:hover {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .payment-history-date {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .payment-history-amount {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .payment-history-method {
+    font-size: 16px;
+    color: #999;
+  }
+  
+  .payment-history-status {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .payment-history-status.success {
+    color: #2ecc71;
+  }
+  
+  .payment-history-status.pending {
+    color: #f7dc6f;
+  }
+  
+  .payment-history-status.failed {
+    color: #e74c3c;
+  }
+
+  .paymentButton{
+    height: 30px;
+    width: 90px;
+    color: white;
+    margin: 2px;
+    border-radius: 6px;
+  }
+
+  .paymentUpdate{
+    background-color: rgb(40, 211, 94);
+
+  }
+  .paymentDelete{
+    background-color: crimson;
+  }

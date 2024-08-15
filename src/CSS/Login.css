@@ -1,0 +1,67 @@
+
+
+body{
+    height: 100vh;
+    background-color: rgba(206, 202, 229, 0.823);
+    /* background-image: linear-gradient(120deg ,rgb(169, 159, 159) ) ; */
+    
+}
+
+
+.loginBox{
+
+    background-color: #daccd7;
+    padding: 10px;
+    height: 60vh;
+    width: 40vw;
+    margin: 5vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.loginformBox{
+    width: 98%;
+    height: 45vh;
+    background-color: rgba(255, 255, 255, 0.636);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+
+}
+
+.loginForm{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+
+}
+.loginForm>div{
+    display: flex;
+    flex-direction: column;
+}
+.loginForm>div input{
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.loginSubmit{
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+}
+
+.loginError{
+    height: 50px;
+    padding: 5px;
+    margin: -19px;
+}
+
+

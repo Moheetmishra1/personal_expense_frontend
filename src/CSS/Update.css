@@ -1,0 +1,10 @@
+.updateForm{
+    width: 700px;
+    margin: 60px auto;
+    padding: 20px;
+    height: 500px;
+    background-color: rgba(177, 135, 218, 0.504);
+    border: 1px solid rgba(238, 236, 238, 0.553);
+    border-radius: 2%;
+    /* border: 2px solid black; */
+}

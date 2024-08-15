@@ -1,0 +1,47 @@
+.navbarBox{
+    padding: 5px;
+    height: 55px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: 700;
+    /* align-items: center; */
+}
+.navbarBox a{
+    text-decoration: none;
+
+}
+
+.logoutIcon{
+    height: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+   
+}
+.logoutIcon >button{
+    height: 38px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(240, 47, 95);
+    color: white;
+    border: none;
+}
+
+.navbarBox>a:visited{
+    color: white;
+}
+.navbarBox a:hover{
+    color: aqua;
+}
+
+.navbarBox a:active{
+    color: black;
+}
+.navbarBox a::selection{
+    color: yellow;
+    background-color: black;
+}
